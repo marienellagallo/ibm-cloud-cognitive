@@ -46,10 +46,14 @@ const s = [
             s: [
               'c/Datagrid',
               'c/Datagrid/Extensions/Header',
-              'c/Datagrid/Extensions/Settings',
+              'c/Datagrid/Extensions/RowHeightSettings',
               'c/Datagrid/Extensions/RowActionButtons',
               'c/Datagrid/Extensions/ExpandableRow',
               'c/Datagrid/Extensions/NestedRows',
+              'c/Datagrid/Extensions/ColumnAlignment',
+              'c/Datagrid/Extensions/ClickableRow',
+              'c/Datagrid/Extensions/InlineEdit',
+              'c/Datagrid/Extensions/ColumnCustomization',
             ],
           },
         ],
@@ -73,6 +77,7 @@ const s = [
             n: 'Edit and update',
             s: [
               'c/InlineEdit',
+              'c/InlineEditV2',
               'c/EditSidePanel',
               'c/EditTearsheet',
               'c/EditTearsheetNarrow',
