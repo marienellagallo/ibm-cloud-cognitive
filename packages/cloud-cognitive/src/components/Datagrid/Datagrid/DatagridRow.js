@@ -59,7 +59,10 @@ const DatagridRow = (datagridState) => {
         }
         return (
           <TableCell
-            className={`${blockClass}__cell`}
+            className={cx(
+              [`${blockClass}__cell`],
+              [`row_${cell.row.id}__column__${cell.column.id}`]
+            )}
             {...restProps}
             key={cell.column.id}
           >
