@@ -16,7 +16,7 @@ export const ColumnHeaderSlug = forwardRef(({ slug }, ref) => {
     });
     return normalizedSlug;
   }
-  return;
+  return null;
 });
 
 ColumnHeaderSlug.propTypes = {
